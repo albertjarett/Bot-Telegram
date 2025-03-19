@@ -181,8 +181,7 @@ async def manejar_comprobante(update: Update, context):
                            context.bot.get_file(file.file_id
                                                 )).download_as_bytearray()
         await subir_y_registrar(file_data)
-        await update.message.reply_text("✅ Comprobante registrado exitosamente"
-                                        )
+        
 
     except ValueError as e:
         await update.message.reply_text(f"⚠️ {str(e)}")
