@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Telegram Bot API
+python-telegram-bot==20.5
+
+# Google APIs
+google-api-python-client==2.104.0
+google-auth==2.23.3
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==1.1.0
+
+# Procesamiento de imágenes
+Pillow==10.2.0
+numpy==1.26.4
+
+# Base de datos SQLite (viene incluido en Python estándar, no requiere instalación)
+# Manejo asíncrono (viene incluido en Python estándar, no requiere instalación)
+
+# Logging (viene incluido en Python estándar, no requiere instalación)
